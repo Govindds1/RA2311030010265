@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <h1>Notification App</h1>
-      <p>Check your console and the test server to see if the log worked!</p>
+      <p>This is a simple notification app.</p>
     </>
   )
 }
