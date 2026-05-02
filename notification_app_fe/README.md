@@ -1,16 +1,22 @@
-# React + Vite
+# Campus Notifications Microservice - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend implementation for the Campus Notifications Microservice, built with React and Material UI.
 
-Currently, two official plugins are available:
+## Final Deliverables
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 1. Desktop View
+![Desktop Dashboard](./assets/desktop-screenshot.png) 
+*(Note: Change `desktop-screenshot.png` to the exact name of your screenshot file)*
 
-## React Compiler
+### 2. Mobile View
+![Mobile Dashboard](./assets/mobile-screenshot.png)
+*(Note: Change `mobile-screenshot.png` to the exact name of your screenshot file)*
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 3. Video Walkthrough
+[Click here to watch the Video Walkthrough](./assets/video-recording.mp4)
+*(Note: Change `video-recording.mp4` to the exact name of your video file. If you used Google Drive, paste the link here instead!)*
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Setup Instructions
+1. Clone the repository
+2. Run `npm install` inside the `notification_app_fe` folder.
+3. Run `npm run dev` to start the server on `http://localhost:3000`.
